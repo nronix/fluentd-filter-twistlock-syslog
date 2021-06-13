@@ -13,8 +13,8 @@ Various compliances like FedRAMP, PCI etc demands for controls where logging dat
 
 ## Prerequisite:
 ```
-openssl genrsa -out private.key 1024
-openssl rsa -in private.key -out public.key -pubout -outform PEM
+openssl genrsa -out private.pem 1024
+openssl rsa -in private.pem -out public.pem -pubout -outform PEM
 ```
 
 ## Usage:
